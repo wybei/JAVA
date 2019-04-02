@@ -14,7 +14,7 @@ public class Test1 {
 
     public static void main(String[] args) {
         StringBuffer str=new StringBuffer();
-        str.append("We Are Happy.");
+        str.append("We are happy");
         System.out.println(replaceSpace(str));
     }
 }
