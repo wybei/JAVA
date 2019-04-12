@@ -24,7 +24,7 @@ public class ReserveInstence{
         }
 
     public static void main(String[] args) {
-        String str="i love china";
+        String str="I love china";
         System.out.println(reserveWords(str));
     }
 }
