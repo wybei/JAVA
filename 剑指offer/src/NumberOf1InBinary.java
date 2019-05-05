@@ -11,7 +11,6 @@ public class NumberOf1InBinary {
             flag=flag<<1;
         }
         return count;
-
     }
 
     //最优解
