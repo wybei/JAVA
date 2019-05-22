@@ -17,13 +17,13 @@ public class QuickSort {
             //循环找比标准数大的数和比标准数小的数
             while (low<high){
                 //右边的数字比标准数大
-                while (low<high&&stared<=arr[high]){
+                while (low<high&&stared>=arr[high]){
                     high--;
                 }
                 //使用右边的数替换左边的数
                 arr[low]=arr[high];
                 //左边的数比标准数小
-                while (low<high&&stared>=arr[low]){
+                while (low<high&&stared<=arr[low]){
                     low++;
                 }
                 arr[high]=arr[low];
