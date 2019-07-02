@@ -19,7 +19,7 @@ public class Test1_2 {
         String str1=sc.nextLine();
         String str2=sc.nextLine();
         int count=0;
-        for (int i = 0; i <str1.length() ; i++) {
+        for (int i = 0; i <=str1.length() ; i++) {
             StringBuffer sb=new StringBuffer(str1);
             sb.insert(i,str2);
             if (isHuiwen(sb.toString())){
